@@ -39,6 +39,13 @@ SRC       =
 ASM_SRC   =
 SRC      += $(USER_DIR)/main.c
 SRC      += $(USER_DIR)/uart_log.c
+SRC      += $(USER_DIR)/stm32_it.c
+SRC      += $(USER_DIR)/hw_config.c
+SRC      += $(USER_DIR)/usb_desc.c
+SRC      += $(USER_DIR)/usb_endp.c
+SRC      += $(USER_DIR)/usb_istr.c
+SRC      += $(USER_DIR)/usb_prop.c
+SRC      += $(USER_DIR)/usb_pwr.c
 
 # user include
 INCLUDE_DIRS  = $(USER_DIR)

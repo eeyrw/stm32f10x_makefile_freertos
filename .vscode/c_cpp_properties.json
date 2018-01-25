@@ -57,7 +57,8 @@
                 "${workspaceRoot}/stm32f10x_lib/CMSIS/CM3/DeviceSupport/ST/STM32F10x",
                 "${workspaceRoot}/freertos/portable/GCC/ARM_CM3",
                 "${workspaceRoot}/stm32f10x_lib/STM32F10x_StdPeriph_Driver/inc",
-                "${workspaceRoot}/stm32f10x_lib/CMSIS/CM3/CoreSupport"
+                "${workspaceRoot}/stm32f10x_lib/CMSIS/CM3/CoreSupport",
+                "${workspaceRoot}/stm32f10x_lib/STM32_USB-FS-Device_Driver/inc"
             ],
             "defines": [
                 "_DEBUG",
