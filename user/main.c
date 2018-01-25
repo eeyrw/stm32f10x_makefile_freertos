@@ -48,7 +48,7 @@ int main()
     RCC_Configuration();
     GPIO_Configuration();
 
-    debug("start main");
+    debug("start main ");
     const char* pcTextForTask1 = "Task1 is running\r\n";
 
 
